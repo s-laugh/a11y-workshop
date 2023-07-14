@@ -1,8 +1,6 @@
 name: Load Test
 
-on:   
-  schedule:
-    - cron: '59 23 * * *'
+on: workflow_dispatch  
   # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule
 
 jobs:
@@ -14,7 +12,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Run k6 local test
-        uses: grafana/k6-action@v0.2.0
+        uses: grafana/k6-action@v0.3.0
         with:
           cloud: false
           filename: load-test.js
