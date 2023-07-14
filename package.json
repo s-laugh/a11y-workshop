@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "node -r ./tracing.js node_modules/next/dist/bin/next start",
-    "test": "npm run lint && npm run test:e2e && npm run test:unit",
+    "test": "npm run lint && npm run test:unit && npm run test:e2e",
     "lint": "next lint",
     "cypress": "cypress open",
     "cypress:run": "cypress run",

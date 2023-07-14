@@ -10,12 +10,12 @@ export default function Home(props) {
   /* istanbul ignore next */
   const t = props.locale === 'en' ? en : fr
 
-  logger.info('Home page')
-  logger.error('test')
-  logger.warn('test')
-  useEffect(() => {
-    logger.debug('Home mounted')
-  }, [])
+  // logger.info('Home page')
+  // logger.error('test')
+  // logger.warn('test')
+  // useEffect(() => {
+  //   logger.debug('Home mounted')
+  // }, [])
 
   return (
     <div
@@ -24,6 +24,7 @@ export default function Home(props) {
     >
       <h1>{props.content.header}</h1>
       <p>{props.content.paragraph}</p>
+      <img src=""></img>
     </div>
   )
 }
