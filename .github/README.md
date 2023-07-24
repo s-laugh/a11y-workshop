@@ -1,19 +1,20 @@
 # Click to view the test reports for Main 👩‍🔬🧪
 
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/DTS-STN/next-template/E2E%20Test?label=E2E)](https://dts-stn.github.io/next-template/main/coverage/e2e-report)
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/DTS-STN/next-template/Lint%20and%20Test?label=Lint%20and%20Unit)](https://dts-stn.github.io/next-template/main/coverage/lcov-report)
+[![Default tests](https://img.shields.io/github/actions/workflow/status/s-laugh/a11y-workshop/default-tests.yml)](https://github.com/s-laugh/a11y-workshop/actions/workflows/default-tests.yml)
+[Jest Report](https://s-laugh.github.io/a11y-workshop/refs/heads/main/e2e-test-report/)
+[Cypress Report)](https://s-laugh.github.io/a11y-workshop/refs/heads/main/unit-test-results/lcov-report/)
 
-![Line Coverage Badge](https://img.shields.io/badge/dynamic/json?label=Line%20Coverage&query=%24.total.lines.pct&suffix=%25&url=https%3A%2F%2Fdts-stn.github.io%2Fnext-template%2Frefs%2Fheads%2Fmain%2Fcoverage%2Fcoverage-summary.json)
-![Statements Coverage Badge](https://img.shields.io/badge/dynamic/json?label=Statement%20Coverage&query=%24.total.statements.pct&suffix=%25&url=https%3A%2F%2Fdts-stn.github.io%2Fnext-template%2Frefs%2Fheads%2Fmain%2Fcoverage%2Fcoverage-summary.json)
-![Function Coverage Badge](https://img.shields.io/badge/dynamic/json?label=Function%20Coverage&query=%24.total.functions.pct&suffix=%25&url=https%3A%2F%2Fdts-stn.github.io%2Fnext-template%2Frefs%2Fheads%2Fmain%2Fcoverage%2Fcoverage-summary.json)
-![Branch Coverage Badge](https://img.shields.io/badge/dynamic/json?label=Branch%20Coverage&query=%24.total.branches.pct&suffix=%25&url=https%3A%2F%2Fdts-stn.github.io%2Fnext-template%2Frefs%2Fheads%2Fmain%2Fcoverage%2Fcoverage-summary.json)
+![Line Coverage Badge](https://img.shields.io/badge/dynamic/json?label=Line%20Coverage&query=%24.total.lines.pct&suffix=%25&url=https%3A%2F%2Fs-laugh.github.io%2Fa11y-workshop%2Frefs%2Fheads%2Fmain%2Funit-test-results%2Fcoverage-summary.json)
+![Statements Coverage Badge](https://img.shields.io/badge/dynamic/json?label=Statement%20Coverage&query=%24.total.statements.pct&suffix=%25&url=https%3A%2F%2Fs-laugh.github.io%2Fa11y-workshop%2Frefs%2Fheads%2Fmain%2Funit-test-results%2Fcoverage-summary.json)
+![Function Coverage Badge](https://img.shields.io/badge/dynamic/json?label=Function%20Coverage&query=%24.total.functions.pct&suffix=%25&url=https%3A%2F%2Fs-laugh.github.io%2Fa11y-workshop%2Frefs%2Fheads%2Fmain%2Funit-test-results%2Fcoverage-summary.json)
+![Branch Coverage Badge](https://img.shields.io/badge/dynamic/json?label=Branch%20Coverage&query=%24.total.branches.pct&suffix=%25&url=https%3A%2F%2Fs-laugh.github.io%2Fa11y-workshop%2Frefs%2Fheads%2Fmain%2Funit-test-results%2Fcoverage-summary.json)
 
 ## Versions
 
-![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/DTS-STN/next-template/next)
-![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/DTS-STN/next-template/dev/tailwindcss)
-![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/DTS-STN/next-template/dev/jest)
-![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/DTS-STN/next-template/dev/cypress)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/s-laugh/a11y-workshop/next)
+![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/s-laugh/a11y-workshop/dev/tailwindcss)
+![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/s-laugh/a11y-workshop/dev/jest)
+![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/s-laugh/a11y-workshop/dev/cypress)
 
 ## Description
 
@@ -92,7 +93,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Licence
 
-Unless otherwise noted, the source code of this project is covered under [Crown Copyright, Government of Canada](https://www.canada.ca/en/canadian-heritage/services/crown-copyright-request.html), and is distributed under the [MIT Licence](../LICENSE).
-
-The Canada wordmark and related graphics associated with this distribution are protected under trademark law and copyright law.
-No permission is granted to use them outside the parameters of the Government of Canada's corporate identity program.
+All rights reserved, unlicenced.
