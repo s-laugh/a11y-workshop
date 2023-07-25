@@ -7,6 +7,9 @@ import Home from '../../pages/home'
 import { getStaticProps } from '../../pages/home'
 
 import { useRouter } from 'next/router'
+import { axe, toHaveNoViolations } from 'jest-axe'
+
+expect.extend(toHaveNoViolations)
 
 // mocks useRouter to be able to use component' router.asPath
 jest.mock('next/router', () => ({
@@ -63,5 +66,11 @@ describe('Home page', () => {
         },
       },
     })
+  })
+
+  it('is meets a11y', async () => {
+    const { container } = render(<Home locale="en" content={content} />)
+    const results = await axe(container)
+    expect(results).toHaveNoViolations()
   })
 })

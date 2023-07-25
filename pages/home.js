@@ -24,6 +24,7 @@ export default function Home(props) {
     >
       <h1>{props.content.header}</h1>
       <p>{props.content.paragraph}</p>
+      <img></img>
     </div>
   )
 }
